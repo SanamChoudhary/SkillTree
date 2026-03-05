@@ -1,4 +1,4 @@
-# DuckPal — CS Skill Tree
+# CS Skill Tree
 
 An interactive, RPG-style skill tree that maps out a Computer Science learning path. Built for the **CodeHS coding challenge**.
 
@@ -12,7 +12,7 @@ An interactive, RPG-style skill tree that maps out a Computer Science learning p
 
 ## Overview
 
-DuckPal presents CS topics as an interactive skill tree — start from **CS Basics** at the top and unlock nodes across 8 branches as you progress. Each node includes a description and curated learning resources. Progress is saved automatically in your browser.
+This project presents CS topics as an interactive skill tree — start from **CS Basics** at the top and unlock nodes across 8 branches as you progress. Each node includes a description and curated learning resources. Progress is saved automatically in your browser.
 
 ### Skill Branches
 
