@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 6px 1px rgba(250, 204, 21, 0.25), inset 0 0 8px rgba(250, 204, 21, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 18px 4px rgba(250, 204, 21, 0.45), inset 0 0 12px rgba(250, 204, 21, 0.08);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
